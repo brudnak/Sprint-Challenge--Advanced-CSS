@@ -2,7 +2,7 @@
 
 # [Deployed Here](https://brud-sprint2.netlify.com)  🚀✨🌌✨
 
-![Site running on an iPhone](https://i.imgur.com/u048dus.png)
+![Site running on an iPhone](https://i.imgur.com/K6U2AOb.png)
 
 # Sprint Challenge: Advanced CSS - Space Walkers Web Page
 
