@@ -2,6 +2,8 @@
 
 .main-nav {
     // main-nav selectors
+
+    // Media Query Invoked 2 Places for Nav
     background-color: @nav-bg;
     display: flex;
     flex-wrap: wrap;
@@ -16,10 +18,16 @@
 
     nav a {
         .nav-links();
+        @media @mobile {
+            margin: 6px;
+        }
     } // end of nav a
 
     h1 {
         .space-walkers();
+        @media @mobile {
+            font-size: 3rem;
+        }
     } // end of h1
     // end of nested selectors
 } // end of main-nav

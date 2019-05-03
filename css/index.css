@@ -189,11 +189,21 @@ p {
   margin: 0px 30px;
   text-decoration: none;
 }
+@media (max-width: 500px) {
+  .main-nav nav a {
+    margin: 6px;
+  }
+}
 .main-nav h1 {
   font-size: 5rem;
   text-align: center;
   width: 100%;
   word-spacing: -0.5ex;
+}
+@media (max-width: 500px) {
+  .main-nav h1 {
+    font-size: 3rem;
+  }
 }
 footer {
   color: #22283B;
