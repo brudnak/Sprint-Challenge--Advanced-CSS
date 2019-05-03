@@ -1,3 +1,15 @@
+.nav-links {
+  color: #454A59;
+  font-size: 2rem;
+  margin: 0px 30px;
+  text-decoration: none;
+}
+.space-walkers {
+  font-size: 5rem;
+  text-align: center;
+  width: 100%;
+  word-spacing: -0.5ex;
+}
 /* http://meyerweb.com/eric/tools/css/reset/ 
    v2.0 | 20110126
    License: none (public domain)
