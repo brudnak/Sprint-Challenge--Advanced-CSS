@@ -1,1 +1,31 @@
 // Navigation code here
+
+.main-nav {
+    // main-nav selectors
+    background-color: @nav-bg;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 14px;
+
+    // start of nested selectors
+    nav {
+        margin-top: 25px;
+    } // end of nav
+
+    nav a {
+        color: @nav-font;
+        font-size: 2rem;
+        margin: 0px 30px;
+        text-decoration: none;
+    } // end of nav a
+
+    h1 {
+        font-size: 5rem;
+        text-align: center;
+        width: 100%;
+        word-spacing: -0.5ex;
+    } // end of h1
+    // end of nested selectors
+} // end of main-nav
