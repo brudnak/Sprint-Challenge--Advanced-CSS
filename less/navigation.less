@@ -1,1 +1,33 @@
 // Navigation code here
+
+.main-nav {
+    // main-nav selectors
+
+    // Media Query Invoked 2 Places for Nav
+    background-color: @nav-bg;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 14px;
+
+    // start of nested selectors
+    nav {
+        margin-top: 25px;
+    } // end of nav
+
+    nav a {
+        .nav-links();
+        @media @mobile {
+            margin: 6px;
+        }
+    } // end of nav a
+
+    h1 {
+        .space-walkers();
+        @media @mobile {
+            font-size: 3rem;
+        }
+    } // end of h1
+    // end of nested selectors
+} // end of main-nav

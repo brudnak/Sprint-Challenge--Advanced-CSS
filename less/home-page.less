@@ -14,6 +14,7 @@
   
   }
 
+  // Section where there are 3 images
   .space-images {
     display: flex;
     flex-wrap: wrap;
@@ -24,8 +25,22 @@
       margin: 20px 2.5%;
       border-radius: 20px;
       height: 100%;
+    } // end img - nested space-images
+    @media @mobile {
+      .blast {
+        // room for white space
+        width: 97%
+      }
+      // Remove 2 images from view
+      .sky {
+        display: none;
+      }
+      .launch {
+        display: none;
+      }
+      // both images removed at this point
     }
-  }
+  } // end space-images
 
   .visit-planets {
     padding: 15px;
@@ -45,6 +60,10 @@
     padding: 50px 60px;
     display: flex;
     justify-content: center;
+    @media @mobile {
+      flex-direction: column;
+      padding: 30px;
+    }
 
     .walk-text {
       width: 50%;
@@ -58,17 +77,38 @@
       }
 
       .btn {
+        .sign-up-button();
       }
     }
 
     .walk-img {
       width: 46%;
       margin-left: 4%;
+
+      @media @mobile {
+        margin-left: 0%;
+      }
       
       img {
         width: 100%;
         height: auto;
         border-radius: 10px;
+      }
+    }
+
+    
+    @media @mobile {
+
+      .walk-img {
+        order: 0;
+        width: 100%;
+      }
+      .walk-text {
+        order: 1;
+        width: 100%;
+        .btn {
+          width: 100%;
+        }
       }
     }
   }
